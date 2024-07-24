@@ -32,6 +32,24 @@ This repository, [`parental_death`](https://github.com/benjisamschlu/parental_de
 
 All code can be found in the `./codes` folder and must be run in order. The first few lines of each code file contains a brief description of the tasks related to that file. Numeric representation of our figures can be found in the `./outputs/data_public` folder. Figures are in the `./outputs/figures` folder. The table was generated using `Excel` with data in `./outputs/tables/table_data_manuscript.xlsx` created with code `./codes/05_numbers_text.R`. 
 
+## Acknowledgement and correction
+
+While JAMA Network journals do not provide updated acknowledgements for identifying errors, 
+we do want to publicly acknowledge and thank those who carefully read the manuscript
+and identify mistakes. 
+
+We thank [Dr. Ashton Verdery](https://sociology.la.psu.edu/people/amv5430/) 
+for identifying an error in the Table of the manuscript. Four cells were mistakenly
+duplicated. This error does not appear in [the code-generated
+version of the table](https://github.com/benjisamschlu/parental_death_drugs_firearms/blob/main/outputs/rmds/00_numbers_in_text.html), 
+so we believe it was a copy and paste error. 
+
+Separately, one cell in the Table had the 95% confidence interval values reversed (i.e.,
+the lower bound was on the right and the upper bound was on the left) but was
+otherwise numerically correct.
+
+A corrected manuscript with the revised Table and a correction notice have been published. 
+
 ## Authors (alphabetical)
 -   [Diego Alburez-Gutierrez](https://alburez.me/)
 -   [Monica Alexander](https://www.monicaalexander.com/)
